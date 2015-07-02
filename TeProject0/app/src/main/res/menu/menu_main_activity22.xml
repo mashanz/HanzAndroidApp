@@ -1,0 +1,16 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) Hanjara Cahya Adhyatama 2015. Kode sumber ini tidak untuk        ~
+  ~ diperjualbelikan serta disebarluaskan tanpa menyertakan copyright yang ada.    ~
+  ~ Menggunakan kode sumber ini berarti menyadari setiap kemungkinan kerusakan     ~
+  ~ yang mungkin disebabkan oleh kode ini pada perangkat anda.                     ~
+  ~ Gunakanlah kode sumber ini dengan bijak dengan menghargai kerja keras developer.
+  ~ Terimakasih.                                                                   ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hanjara.teproject0.MainActivity22Activity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

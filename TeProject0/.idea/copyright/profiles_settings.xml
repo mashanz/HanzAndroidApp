@@ -1,0 +1,14 @@
+<component name="CopyrightManager">
+  <settings default="Hanjara Cahya Adhyatma">
+    <module2copyright>
+      <element module="All" copyright="Hanjara Cahya Adhyatma" />
+    </module2copyright>
+    <LanguageOptions name="__TEMPLATE__">
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
+      <option name="lenBefore" value="85" />
+      <option name="lenAfter" value="85" />
+      <option name="box" value="true" />
+    </LanguageOptions>
+  </settings>
+</component>

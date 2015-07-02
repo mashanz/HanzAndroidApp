@@ -1,0 +1,12 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) Hanjara Cahya Adhyatama 2015. Kode sumber ini tidak untuk        ~
+  ~ diperjualbelikan serta disebarluaskan tanpa menyertakan copyright yang ada.    ~
+  ~ Menggunakan kode sumber ini berarti menyadari setiap kemungkinan kerusakan     ~
+  ~ yang mungkin disebabkan oleh kode ini pada perangkat anda.                     ~
+  ~ Gunakanlah kode sumber ini dengan bijak dengan menghargai kerja keras developer.
+  ~ Terimakasih.                                                                   ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<resources>
+    <string name="app_name">TeProject2</string>
+</resources>

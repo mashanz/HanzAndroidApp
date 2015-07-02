@@ -1,0 +1,83 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) Hanjara Cahya Adhyatama 2015. Kode sumber ini tidak untuk        ~
+  ~ diperjualbelikan serta disebarluaskan tanpa menyertakan copyright yang ada.    ~
+  ~ Menggunakan kode sumber ini berarti menyadari setiap kemungkinan kerusakan     ~
+  ~ yang mungkin disebabkan oleh kode ini pada perangkat anda.                     ~
+  ~ Gunakanlah kode sumber ini dengan bijak dengan menghargai kerja keras developer.
+  ~ Terimakasih.                                                                   ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#0099cc"
+    tools:context=".IndexActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView android:id="@+id/fullscreen_content" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:keepScreenOn="true" android:textColor="#33b5e5"
+        android:textStyle="bold" android:textSize="50sp" android:gravity="center"
+        android:text="@string/dummy_content" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay" android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button android:id="@+id/dummy_button" style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="@string/dummy_button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|top"
+            android:weightSum="1"
+            android:id="@+id/">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/header"
+                android:background="#b2c2c2c2">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="close"
+                    android:id="@+id/button"
+                    android:layout_gravity="right" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="left|top"
+        android:background="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="47dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="    SMART HOME"
+        android:id="@+id/textView"
+        android:layout_gravity="left|top"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
+
+</FrameLayout>
